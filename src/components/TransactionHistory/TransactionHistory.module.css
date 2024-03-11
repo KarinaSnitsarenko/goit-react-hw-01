@@ -1,0 +1,36 @@
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+.transactionsHistory {
+    width: 700px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.thTitle {
+    padding: 5px;
+    background-color: #2a2a2a;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+td {
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #b3b3b3;
+}
+
+.tdType {
+    text-transform: capitalize;
+}
+
+.tdCurrency {
+    text-transform: uppercase;
+}
+
